@@ -1,0 +1,10 @@
+﻿$textSize: 60px;
+$fontName: Arial;
+body{
+    background:silver;
+}
+h1 {
+    color: red;
+    font-family: $fontName;
+    font-size: $textSize;
+}

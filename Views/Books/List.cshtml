@@ -1,0 +1,10 @@
+﻿
+    <h1>Все книги</h1>
+    @{ 
+        foreach (var book in Model.MyAllBooks)
+        {
+            <h3>Книга: @book.NameBook</h3>
+            <p>Описание: @book.Description</p> 
+        }
+    }
+
